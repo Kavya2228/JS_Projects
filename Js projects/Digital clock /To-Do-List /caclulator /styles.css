@@ -1,0 +1,36 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .calculator input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+  }
+  
+  .calculator .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calculator .buttons .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align numbers to the left */
+  }
+  
+  .calculator .buttons .operators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; /* Align operators to the right */
+  }
+  
+  .calculator .buttons button {
+    width: 70px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+  }
+  
